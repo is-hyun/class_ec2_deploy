@@ -3,7 +3,7 @@ on:
   push:
     branches: [main]  # ① push를 지켜볼 브랜치
 env:
-  ECR_REGISTRY: 718438899169.dkr.ecr.ap-southeast-2.amazonaws.com  # ② 계정 ID, 리전
+  ECR_REGISTRY: 909691349957.dkr.ecr.ap-southeast-2.amazonaws.com/spring-server  # ② 계정 ID, 리전
   IMAGE_NAME: spring-server  # ③ ECR 저장소 이름
 jobs:
   deploy:
